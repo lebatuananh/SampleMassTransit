@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendEmailMassTransit.API", "SendEmailMassTransit.API\SendEmailMassTransit.API.csproj", "{1D7F13D5-7EFB-4A0E-8E36-EDEB4DAED2FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendEmailMassTransit.Common", "SendEmailMassTransit.Common\SendEmailMassTransit.Common.csproj", "{AF13B147-1585-4C2D-B414-494F04DCB9FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendEmailMassTransit.DataProcessor", "SendEmailMassTransit.DataProcessor\SendEmailMassTransit.DataProcessor.csproj", "{1B6D7CDD-38B7-4EEC-A5C9-883C1E595BBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendEmailMassTransit.EventProcessor", "SendEmailMassTransit.EventProcessor\SendEmailMassTransit.EventProcessor.csproj", "{C22B6652-E5AE-455F-8CD6-7D536BAC294A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendMassTransit.Domain", "SendMassTransit.Domain\SendMassTransit.Domain.csproj", "{698885A7-1885-403C-9DF0-4039B4F80804}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D7F13D5-7EFB-4A0E-8E36-EDEB4DAED2FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D7F13D5-7EFB-4A0E-8E36-EDEB4DAED2FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D7F13D5-7EFB-4A0E-8E36-EDEB4DAED2FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D7F13D5-7EFB-4A0E-8E36-EDEB4DAED2FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF13B147-1585-4C2D-B414-494F04DCB9FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF13B147-1585-4C2D-B414-494F04DCB9FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF13B147-1585-4C2D-B414-494F04DCB9FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF13B147-1585-4C2D-B414-494F04DCB9FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B6D7CDD-38B7-4EEC-A5C9-883C1E595BBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B6D7CDD-38B7-4EEC-A5C9-883C1E595BBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B6D7CDD-38B7-4EEC-A5C9-883C1E595BBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B6D7CDD-38B7-4EEC-A5C9-883C1E595BBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C22B6652-E5AE-455F-8CD6-7D536BAC294A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C22B6652-E5AE-455F-8CD6-7D536BAC294A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C22B6652-E5AE-455F-8CD6-7D536BAC294A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C22B6652-E5AE-455F-8CD6-7D536BAC294A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{698885A7-1885-403C-9DF0-4039B4F80804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{698885A7-1885-403C-9DF0-4039B4F80804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{698885A7-1885-403C-9DF0-4039B4F80804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{698885A7-1885-403C-9DF0-4039B4F80804}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
